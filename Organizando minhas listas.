@@ -1,0 +1,102 @@
+#aqui eu usei o metodo sort para organizar minhas listas em ordem alfabetica;
+#tambem testei o uso do reverse=True, ele basicamento faz a mesma coisa que o metodo sort, so que em ordem reversa, ou seja ele organizar minha lista em ordem alfabetica reversa.
+
+viagens=['acapuco', 'havawi', 'egito','grecia','italia', 'israel']
+print(viagens)
+print()
+viagens.sort()
+print(viagens)
+viagens.sort(reverse=True)
+print(viagens)
+print()
+
+#aqui irei usar o metodo sorted para organizar minhas lista em ordem alfabetica, mas nao permanente.
+#repare que o comando sorted só é valido quando digo que quero organisar minha lista, ele não altera a ordem permanentemente.
+#pelo texte que eu fiz pude ver que meto sorted so ira cumprir sua funcao quando usado jutamente com um comando print, porque ele tem um efeito temporario, então do comando sorted para baixo nao adianta querer mostrar minha lista em uma forma odenada pq o metodo sorted só altera no momento em que ele for excutado.
+fome=['chocolate', 'agnisio treonato','omega3'] 
+
+print('aqui esta a maneira correta de se usar o metodo sorted')
+print(sorted(fome))
+print(fome)
+print()
+
+#usando o metodo reverse para reverter toda a ordem da minha lista.
+#aparente o meto reverse em bem simples de se usar, para reverter uma lista basta colocar nome da lista e . reverse().
+#quaso eu queira que minha lista volte a seu estado incial é bem simples, use o reverse novamente.
+
+tc=['spark','hadoop','cassandra']
+tc.reverse()
+print(tc)
+print()
+
+#usando o comando den para ver quantos itens tem dentro da minha lista.
+
+dragon=['bills', 'whis', 'pam pirigote', 'senhor miage', 'goku', 'vegeta','madeboo']
+len(dragon)
+
+#RESOLVENDO OS EXERCICIOS.
+
+viagens_mundo=['roma','egito','israel','italia', 'frança','portugal','espanha','acapuco','hawai','dubai','inglaterra']
+print(viagens_mundo)
+print()
+print('aqui vou usara o comando sorted para organizar minha lista de uma forma provisoria')
+print(sorted(viagens_mundo))
+print()
+print(viagens_mundo)
+print()
+print('aqui irei usar o comando reverse para reverter minha lista ao contrario')
+viagens_mundo.reverse()
+print(viagens_mundo)
+print()
+print('aqui eu irei provar que se eu quiser reverter minha lista para a ondem nomal é só usar o comando reverse novamente')
+viagens_mundo.reverse()
+print(viagens_mundo)
+print()
+print('atraves do metodo sort vou organizar minha lista em uma ordem alfabetica')
+viagens_mundo.sort()
+print(viagens_mundo)
+print()
+print('aqui usarei meu sort juntamente com o reverse=True para reverter a ordem da minha lista de modo que seja mostrada em uma sequencia afabitaca inversa.')
+viagens_mundo.sort(reverse=True)
+print()
+
+#nesse exercicio em que eu tinha que fazer o uso do len para mostrar uma msg ao meu convidado dizendo o numero de pessoas que viriam no jantar, pude aprender muitas coisas.
+#aprendi que posso guardar o comando len dentro de uma variavel.
+#tambem aprendi que se eu guardar o numero que ele ira me fornecer em uma variavel altomaticamente esse valor e um valor int.
+#mas tambem descobri com se faz para usar o valor inteiro do comando len com uma string, para fazer isso basta usar a abreviaçao str que e convertido o valor inteiro para um valor string.
+#como se usa; vv=(str(len(mtv)))
+
+print('usando o comando len para mostrar aos meus convidados o numero de pessoas que viram no meu jantar')
+convidados=['clark kent', 'cloe','lana']
+msg_convite='tudo bem aqui é o lex lutor, quero te convidar para vir aqui em casa e toma uma sabugada,'
+pp=(str (len(convidados)))
+
+print(msg_convite+" "+'vamoster'+" "+pp+" "+'pessoas no total para levar aquela sabuga, contando com voce')
+print()
+brasil=['parana','santa cartarina', 'sao paulo','rio grande do sul']
+print('aqui irei mostrar como se usa o comando sort para organisar uma lista em ondem alfabetica')
+brasil.sort()
+print(brasil)
+#
+#
+print()
+print('aqui vou mostrar como se usa o sort com o reverse=True.')
+brasil.sort(reverse=True)
+print(brasil)
+#
+#
+print()
+print('aqui demonstrarei como usa-se o metodo sorted ')
+print(sorted(brasil))
+#
+#
+print()
+print('Aqui vou demonstra como se inverte a onde uma lista usando o metodo reverse')
+brasil.reverse()
+print(brasil)
+#
+#
+print()
+print('aqui iremos demostrar como se ultiliza o metodo len')
+mtv=(str(len(brasil)))
+print('eu tenho'+" "+mtv+" "+'irmaos')
