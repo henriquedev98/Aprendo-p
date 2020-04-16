@@ -1,0 +1,82 @@
+#aqui eu fiz uma lista com os nomes de pessoas da minha familia e fiz uma mensagem fazendo a junção da variavel saudação e a minha lista names.
+
+names=['Vilma', 'Miguel', 'Jhonatan', 'Gean', 'Juninho', 'Henrique']
+saudacao="OLA terraquio, aqui e tera baty creio que seu nome seja"
+print(saudacao+" "+names[0])
+print(saudacao+" "+names[1])
+print(saudacao+" "+names[2])
+print(saudacao+" "+names[3])
+print(saudacao+" "+names[4])
+print(saudacao+" "+names[5])
+print(names[5])
+#aqui eu fiz uma alteracao do elemento 6 da minha lista, uma observação interessante que fiz foi que ao alterar um elemento essa alteracao nao vai modificar o nome que esta fixado na lista names, ele ira alterar oque eu fazer depois da alteracao.
+  
+names[5]='Marcos'
+print(names)
+print(names[5]) 
+
+print(names[5].title())
+
+#aqui eu estou usando o metodo append para inserir dados na minha lista, no caso em especifico eu deixei para acrescenta dados na minha lista depois que eu ja havia criado.
+
+series=[]
+
+series.append('smallville')
+series.append('warom')
+series.append('flash')
+
+#aqui eu estou testando o meu comando insert, o intuito aqui é basicamente usar o isert para iserir dados na minhha lista
+
+big_data=['eg','sd','dsa']
+big_data.insert(1, 'chaves')
+print(big_data)
+print(big_data[2].title())
+print(big_data[0].title())
+
+# aqui eu aprendi que quando eu crio uma lista e quero usar o comando (del) nao posso simplesmente usa-lo depois que minha lista estiver pronta;
+# eu tenho que mostrar os valores que eu coloquei dentro da lista primeiro, nao faria sentido nenhuma eu querer usar o (del) se posso o alterar na hora;
+# ao meu ver esse comando (del) e para fazer a exclusao de dados vamos supor que eu tenha um site e um usario fez o login dele atravez de append so que depois de um tempo esse usuario nao quer mais vizualizar o conteudo do meu site, é ai que vou usar o (del).
+
+livros=['o poder do abito', 'surpreendase com seu potencial', '50 tons de sucesso']
+print(livros)
+
+del livros[2]
+print(livros)
+
+#comando de exclusão pop.
+#uma fato interesante que pude observar é que quando quero fazer a concateção de uma lista com uma variavel do tipo string da erro de syntax.
+#eu por enquanto so sei usar o metodo pop ,concatenando ele apenas com uma messagem no meu print.
+
+
+especializaçao=['big data engenier','data science', 'agilite']
+
+bd_especializaçao=especializaçao.pop()
+print(especializaçao)
+print(bd_especializaçao)
+
+moto=['honda', 'suzuki', 'bmw']
+
+moto_preferida= moto.pop(2)
+print('Minha moto preferida é a'+" "+ moto_preferida.upper())
+
+#removendo um item da lista usando o metodo remove;
+#com esse metodo consigo remover qualquer item da minha lista que eu nao saiba a posição que ele se encontra, basta saber o nome para fazer a exclusão.
+
+caverna_dg=['unicornio','mestre dos magos','vingador']
+print(caverna_dg)
+
+caverna_dg.remove('vingador')
+print(caverna_dg)
+
+#aqui eu irei trabalhar com a o item que eu vou excluir da minha lista usando o metodo remove.
+#fiz uma boa observação quando eu estava tentando concaternar string e uma lista, reparei que essa combinação nao é possivel ate o momento, ainda nao conheco metodo para fazer isso.
+
+gg=['meta', 'disciplina', 'consistencia', 'deus']
+print(gg)
+issoep='desenvolvimento pessoal' 
+print('Livros de'+" "+issoep.upper()+" "+'são muito importante para o ser humano se desenvolver como pessoa.' )
+print(issoep.upper()+" "+'tem que ser o primeiro pessamento quando voce acorda e o ultimo quando vai dormir ')
+print()
+mv=['dsa', 'AWS', 'sgp']
+melhor= mv.pop(1)
+print(melhor)
