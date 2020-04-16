@@ -1,0 +1,14 @@
+#aqui eu estou vendo como se faz o uso do str, quando quero que um valor inteiro seja interpretado por python como uma string caractere em um msg. 
+
+bicleta= "Gosto de andar de bicicleta"
+mx= "umas das melhores bike é a mx"
+numero=10000000000000000000000000000
+juncao= bicleta+" "+mx +" "+ str(numero)
+print(juncao) 
+
+#Aqui eu estou fazendo o uso do str para mostra um valor     
+
+dd=67
+mt= "Esse é meu numero favorito"+" "+ str(dd)
+print(mt)
+
